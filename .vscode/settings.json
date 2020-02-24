@@ -1,0 +1,6 @@
+{
+    "files.autoSaveDelay": 10000,
+    "files.autoSave": "off",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 140
+}
