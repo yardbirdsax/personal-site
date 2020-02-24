@@ -1,0 +1,17 @@
+---
+title: Welcome
+published: true
+tags: []
+---
+
+Welcome to my site! I built this as an experiment in learning how to deploy static content using [GatsbyJs](https://gatsbyjs.org) on [Amazon S3](https://aws.amazon.com/s3). I hope to consolidate content from my various blogs here over time.
+
+I'm a technology professional who specializes in cloud and data stacks, including SQL Server, the ELK stack, Kubernetes (I particularly love [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/)), and various elements of the [Azure data platform](https://azure.microsoft.com/en-us/overview/data-platform/). I currently lead a team of web and systems engineers for [Gateway Ticketing Systems](https://gatewayticketing.com).
+
+I'm passionate about learning the latest technology, and enjoy writing about it so that others can learn from my many mistakes.
+
+## Platforms I write on
+
+- [Medium](https://medium.com/@yardbirdsax)
+- [Simple-Talk](https://www.red-gate.com/simple-talk/author/joshua-feierman/)
+- [My (now mostly idle) blog on SQL Server](https://sqljosh.com)
