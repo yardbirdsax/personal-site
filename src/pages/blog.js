@@ -13,6 +13,8 @@ const BlogPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
   const labels = data.site.siteMetadata.labels
   const currentPage = 1
+  const postCount = posts.count
+  const postsPerPage = 3
   const nextPage = (currentPage + 1).toString()
 
   const getTechTags = (tags) => {
@@ -64,9 +66,15 @@ const BlogPage = ({ data }) => {
             )
           })}
           <div className="mt-4 text-center">
-            <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
-              <span className="text-dark">Next Page →</span>
-            </Link>
+            {
+              postCount <= postsPerPage ? (
+                <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
+                  <span className="text-dark">Next Page →</span>
+                </Link>
+              ) : (
+                <span />
+              )
+            }
           </div>
         </div>
       </div>
