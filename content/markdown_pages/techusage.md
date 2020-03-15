@@ -50,10 +50,10 @@ Here are the goals I want to accomplish as part of implementing these rules. The
 The following are the technologies in scope and the specific procedures used to curb their usage.
 
 | Technology                | Strategies                                      | Implemented? |
-|---------------------------|-------------------------------------------------|
+|---------------------------|-------------------------------------------------|--------------|
 | Twitter                   | Do not access from my phone or tablets. Access only from computer at scheduled times. I will choose the times to access during my daily planning session.           | Partial, need to determine a way to block access through Firefox on my phone (app is on there to allow for backup of my settings).  |
 LinkedIn                    | Do not access from my phone or tablets. Access only from computer at scheduled times. I will choose the times to access during my daily planning session.           | Partial, need to determine a way to block access through Firefox on my phone (app is on there to allow for backup of my settings).  |
-Slack                       | Remove from my phone, access only from my computer. For non-work Slack channels, I will choose the times to access during my daily planning session.. For work Slack channels, I use Do Not Disturb during deep work sessions to minimize distractions. | Done, app has been removed. |
+Slack                       | Remove from my phone, access only from my computer. For non-work Slack channels, I will choose the times to access during my daily planning session. For work Slack channels, I use Do Not Disturb during deep work sessions to minimize distractions. | Done, app has been removed. |
 Discord                     | Remove from my phone, access only from my computer. I will choose the times to access during my daily planning session. | Done, app has been removed. |
 Snapchat                    | Turn off all notifications. Check once per day during a scheduled break.  | Done, notifications are off. Will monitor to see if leaving my phone in my bedroom is adequate to curb this.  |
 General cellphone usage     | Leave my phone plugged in on my bedside table so I don't have it with me. To help mitigate the fear of missing a call, I will 1) turn up the ringer volume, 2) ensure wifi / cellular is enabled on my Apple watch, so that I can receive calls on it.  | Phone is plugged in and left, currently working on enabling cellular on my watch. |
