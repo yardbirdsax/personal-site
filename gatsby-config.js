@@ -33,7 +33,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/markdown_pages`,
-        name: `blog`,
+        name: `pages`,
       },
     },
     {
@@ -129,14 +129,14 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
+                allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fields: {sourceName: {eq: "blog"}}, frontmatter: {published: {eq: true}}}) {
                   edges {
                     node {
                       excerpt
                       html
-                      fields { slug }
+                      fields {
+                        slug
+                      }
                       frontmatter {
                         title
                         date
@@ -144,7 +144,7 @@ module.exports = {
                     }
                   }
                 }
-              }
+              }            
             `,
             output: "/rss.xml",
             title: "Josh Feierman's Blog",
@@ -152,6 +152,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-remark-source-name`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
