@@ -19,6 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-remark-prismjs": "^3.2.9",
     "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-source-name": "^1.0.0",
     "gatsby-remark-table-of-contents": "0.0.9",
     "gatsby-source-filesystem": "^2.0.37",
     "gatsby-transformer-remark": "^2.3.12",
