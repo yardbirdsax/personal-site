@@ -39,6 +39,7 @@ Here are the goals I want to accomplish as part of implementing these rules. The
 * By April 13th, reduce overall smartphone and tablet usage to less than one hour per day. This will be tracked using ScreenTime in iOS. Exceptions to time tracked include: 
   * Waze (navigation)
   * Music
+  * Text messaging (right now it's where a lot of friends are communicating, and while I want to reduce it's usage, now isn't yet the time to do so)
 * By April 13th, accomplish the following household non-technology related items:
   * Prepare and plant the garden
   * Split and stack the wood that's been sitting for almost 2 years
