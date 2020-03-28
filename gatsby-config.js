@@ -43,6 +43,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -57,6 +59,27 @@ module.exports = {
               noInlineHighlight: false,
             }
           }, `gatsby-remark-responsive-iframe`,
+          // {
+          //   resolve: `gatsby-remark-relative-images-v2`,
+          // },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 1,
+              toHeading: 2
+            }
+          },
         ],
       },
     },
@@ -69,8 +92,6 @@ module.exports = {
         ]
       }
     },
-    //`gatsby-transformer-sharp`,
-    //`gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -82,22 +103,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-table-of-contents`,
-            options: {
-              exclude: "Table of Contents",
-              tight: false,
-              fromHeading: 1,
-              toHeading: 2
-            }
-          }
-        ]
-      }
     },
     {
       resolve: `gatsby-plugin-feed`,
