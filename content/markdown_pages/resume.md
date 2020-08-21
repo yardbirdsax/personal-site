@@ -23,9 +23,13 @@ Experience
 *2019 - Present: Senior DevOps Engineer*
 
 -   In December of 2019, I made the decision to return to a technical role and have been working on a small project based consulting team ever since.
--   I implemented an automated CI/CD pipeline for database changes using Azure DevOps, AWS Codebuild, and FlywayDB, which allowed us to move from manual execution of database scripts to automated release of database changes.
+-   I implemented numerous CI/CD pipelines for database changes, containerized APIs, and React deployments using Azure DevOps, AWS Codebuild, AWS CodeDeploy, and FlywayDB, which allowed us to:
+    - Move from manual execution of database scripts to automated release of database changes
+    - Implement a Blue/Green rollout strategy for a containerized API
+-   I created a set of standardized Azure DevOps templates, so that new CICD pipelines can be created extremely quickly while still following standard guidelines and patterns.
 -   I achieved multiple AWS Certifications in the first 30 days of employment, including the Solutions Architect Associate and DevOps Engineer Professional.
 -   I created a standardized ingestion pipeline for logs from Elastic Container Service and Lambda, using a combination of Kinesis Firehose streams, Python running in Lambda, and AWS Elasticsearch Service. This allows us to easily search log records and troubleshoot problems faster.
+-   I created numerous Terraform modules for deploying common sets of infrastructure in a repeatable and standardized way. I also built a standard Azure DevOps template for running Terraform deployments as part of CICD pipelines.
 
 ### 2014 - 2019: Gateway Ticketing Systems
 
