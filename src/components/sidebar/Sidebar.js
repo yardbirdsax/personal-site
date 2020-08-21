@@ -56,7 +56,7 @@ const Sidebar = () => {
                             {/*<Link to="/services"><span className="text-dark d-block py-1">Services</span></Link>}
                             <Link to="/resources"><span className="text-dark d-block py-1">Resources</span></Link>*/}
                             <Link to="/blog"><span className="text-dark d-block py-1">Blog</span></Link>
-                            <Link to="/techusage"><span className="text-dark d-block py-1">My Tech Usage Policy</span></Link>
+                            <Link to="/digital-minimalism"><span className="text-dark d-block py-1">Digital Minimalism</span></Link>
                             <Link to="/resume"><span className="text-dark d-block py-1">Resume</span></Link>
                         </div>
                         {/* <div className="tech-tags mt-4">
