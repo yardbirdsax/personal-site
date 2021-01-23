@@ -1,7 +1,7 @@
 import React from "react"
 import "./sidebar.css"
 
-import joshjpg from "../../images/josh.jpg"
+import joshjpg from "../../images/Josh.jpg"
 import awscert from "../../images/aws-certified-logo_color-horz_180x30.jpg"
 
 const Bio = ({ author, tagline }) => {
