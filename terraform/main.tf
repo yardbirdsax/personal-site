@@ -1,14 +1,6 @@
 variable "bucketName" {
   type = string
-}
-
-variable "logBucketName" {
-  type = string
-}
-
-provider "aws" {
-  version = "~> 2.0"
-  region = "us-east-1"
+  default = "josh.feiermanfamily.com"
 }
 
 resource "aws_s3_bucket" "bucket" {
@@ -17,11 +9,6 @@ resource "aws_s3_bucket" "bucket" {
 
   website {
       index_document = "index.html"
-  }
-
-  logging {
-    target_bucket = var.logBucketName
-    target_prefix = "${var.bucketName}/"
   }
 }
 
@@ -39,7 +26,7 @@ data "aws_iam_policy_document" "bucketPolicyDocument" {
 
 resource "aws_s3_bucket_policy" "bucketPolicy" {
   bucket = aws_s3_bucket.bucket.id
-  policy = "${data.aws_iam_policy_document.bucketPolicyDocument.json}"
+  policy = data.aws_iam_policy_document.bucketPolicyDocument.json
 }
 
 
