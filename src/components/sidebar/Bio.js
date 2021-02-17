@@ -2,7 +2,10 @@ import React from "react"
 import "./sidebar.css"
 
 import joshjpg from "../../images/Josh.jpg"
-import awscert from "../../images/aws-certified-logo_color-horz_180x30.jpg"
+import awsdevopseng from "../../images/aws-certified-devops-engineer-professional.png"
+import awssaassoc from "../../images/aws-certified-solutions-architect-associate.png"
+import azuredevopseng from "../../images/microsoft-certified-devops-engineer-expert.png"
+import azureadministrator from "../../images/microsoft-certified-azure-administrator-associate.2.png"
 
 const Bio = ({ author, tagline }) => {
 
@@ -11,7 +14,12 @@ const Bio = ({ author, tagline }) => {
             <img src={joshjpg} style={{ maxWidth: `100px` }} className="profile-img" alt="" />
             <h3 className="mt-2 author-bio">{author}</h3>
             <small style={{  }} className="text-muted">{tagline}</small>
-            <img src={awscert} style={{ maxWidth: "200px", display: `block`  }} />
+            <div style={{ clear: `both` }}>
+                <img src={awsdevopseng} />
+                <img src={awssaassoc} />
+                <img src={azuredevopseng} />
+                <img src={azureadministrator} />
+            </div>
         </div>
     )
 }
