@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
               <hr/>
               <p className="d-inline">© {new Date().getFullYear()} Josh Feierman, All Rights Reserved.</p>
               <p className="d-inline"> Forked from <a href="https://github.com/willjw3/gatsby-starter-developer-diary">Developer Diary</a> by Will Ward.</p>
-              <p className="mt-5 text-muted"><i> Built with <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a>, hosted by <a className="text-info" href="https://aws.amazon.com">AWS</a>.</i>
+              <p className="mt-5 text-muted"><i> Built with <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a> on <a className="text-info" href="https://dev.azure.com">Azure DevOps</a>, hosted by <a className="text-info" href="https://aws.amazon.com">AWS</a>.</i>
               </p>
             </footer>
           </div>
