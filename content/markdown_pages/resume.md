@@ -30,7 +30,11 @@ Experience
 -   I achieved multiple AWS Certifications in the first 30 days of employment, including the Solutions Architect Associate and DevOps Engineer Professional.
 -   I created a standardized ingestion pipeline for logs from Elastic Container Service and Lambda, using a combination of Kinesis Firehose streams, Python running in Lambda, and AWS Elasticsearch Service. This allows us to easily search log records and troubleshoot problems faster.
 -   I created numerous Terraform modules for deploying common sets of infrastructure in a repeatable and standardized way. I also built a standard Azure DevOps template for running Terraform deployments as part of CICD pipelines.
--   I am currently leading a team in an effort to migrate from an on-premise OpenStack based infrastructure to an AWS based one. This includes designing infrastructure layout, building sets of re-usable Terraform modules for repeatable reployments, creating a path to migrate from Hashicorp Nomad to Kubernetes for container orchestration, and constructing a strategy for incremental service migration using Hashicorp Consul Connect Service Mesh as a traffic mediator.
+-   I am currently leading a team in an effort to migrate from an on-premise OpenStack based infrastructure to an AWS based one. This includes:
+    - Designing infrastructure layout and building sets of re-usable Terraform modules for repeatable reployments
+    - Creating a path to migrate from Hashicorp Nomad to Kubernetes for container orchestration
+    - Constructing a strategy for incremental service migration using Hashicorp Consul Connect Service Mesh as a traffic mediator
+    - Implementing Hashicorp Vault as the exclusive secret store for all applications and infrastructure deployments
 
 ### 2014 - 2019: Gateway Ticketing Systems
 
