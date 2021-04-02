@@ -15,7 +15,7 @@ jobs:
       - task: NodeTool@0
         displayName: Install NodeJS
         inputs:
-          versionSpec: 12.x
+          versionSpec: 15.x
       - task: Npm@1
         displayName: Install NPM packages
         inputs:
