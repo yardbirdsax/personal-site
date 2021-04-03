@@ -23,10 +23,10 @@ const AboutPage = (props) => {
                     <div className="mt-3">
                         <h2 className="heading">About Me</h2>
                         <p>
-                            I'm a self-taught data and DevOps expert, who loves nothing more than helping people to leverage technology to make their lives easier, both at work and in their personal lives.
+                            I'm a self-taught software engineer who loves nothing more than helping people to leverage technology to make their lives easier, both at work and in their personal lives. I'm a tool builder at heart whose favorite phrase is "<strong>I build the stuff that helps you run your stuff.</strong>" My mantra is "<strong>Do it twice, document it; do it three times, automate it.</strong>"
                         </p>
                         <p>
-                            For over a decade, I've worked in technology, in roles ranging from development to systems administration and leadership. Along the way, I've developed skills in a wide range of technologies, including Microsoft Azure, AWS, SQL Server, Elasticsearch, and many others.
+                            For over a decade, I've worked in technology, in roles ranging from development to systems administration and leadership. Along the way, I've developed skills in a wide range of technologies, including Microsoft Azure, AWS, SQL Server, Elasticsearch, the Hashicorp stack, and many others.
                         </p>
                         <div style={{alignContent:'center', display: 'block'}}>
                             <div style={{justifyContent: 'space-between', display: 'flex', width: "80%", alignContent: 'center'}}>
