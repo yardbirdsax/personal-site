@@ -50,6 +50,15 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 1,
+              toHeading: 2
+            }
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
@@ -70,15 +79,6 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 590,
             },
-          },
-          {
-            resolve: `gatsby-remark-table-of-contents`,
-            options: {
-              exclude: "Table of Contents",
-              tight: false,
-              fromHeading: 1,
-              toHeading: 2
-            }
           },
         ],
       },
