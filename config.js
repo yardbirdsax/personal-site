@@ -3,7 +3,7 @@
 module.exports = {
   url: "https://josh.feiermanfamily.com",
   title: "Josh Feierman's Website",
-  tagline: "Microsoft Azure and AWS DevOps Specialist",
+  tagline: "Passionate tool maker and open source enthusiast",
   copyright: "© 2019 Josh Feierman, All rights reserved",
   author: {
     name: "JOSH FEIERMAN",
