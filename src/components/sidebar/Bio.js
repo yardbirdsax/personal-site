@@ -14,7 +14,7 @@ const Bio = ({ author, tagline }) => {
             <img src={joshjpg} style={{ maxWidth: `100px` }} className="profile-img" alt="" />
             <h3 className="mt-2 author-bio">{author}</h3>
             <small style={{  }} className="text-muted">{tagline}</small>
-            <div style={{ clear: `both` }}>
+            <div style={{ clear: `both`, paddingTop: `10px` }}>
                 <img src={awsdevopseng} />
                 <img src={awssaassoc} />
                 <img src={azuredevopseng} />
