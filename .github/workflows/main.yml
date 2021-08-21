@@ -1,0 +1,20 @@
+name: Main branch build
+on:
+  push:
+    branches:
+      - "main"
+    paths-ignore:
+      - "terraform/"
+jobs:
+  build:
+    name: Build main branch
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+      - name: NPM install
+        run: npm install
+      - name: Gatsby build
+        run: node_modules/.bin/gatsby build
