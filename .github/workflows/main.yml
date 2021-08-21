@@ -9,15 +9,21 @@ on:
 jobs:
   build:
     name: Build main branch
+    env:
+      AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+      AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+      AWS_S3_BUCKET_NAME: "josh.feiermanfamily.com"
     runs-on: ubuntu-20.04
     steps:
-      - name: Install NodeJS
-        uses: actions/setup-node@v2
-        with:
-          node-version: "15"
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: npm install
-        uses: jaid/action-npm-install@v1.2.1
-      - name: Gatsby build
-        run: node_modules/.bin/gatsby build
+      # - name: Install NodeJS
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: "15"
+      # - name: checkout
+      #   uses: actions/checkout@v2
+      # - name: npm install
+      #   uses: jaid/action-npm-install@v1.2.1
+      # - name: Gatsby build
+      #   run: node_modules/.bin/gatsby build
+      - name: Test AWS access
+        run: aws s3 ls s3://${AWS_S3_BUCKET_NAME}/
