@@ -29,4 +29,4 @@ jobs:
       # - name: Gatsby build
       #   run: node_modules/.bin/gatsby build
       - name: Test AWS access
-        run: aws s3 ls s3://${AWS_S3_BUCKET_NAME}/
+        run: aws s3 ls "s3://${AWS_S3_BUCKET_NAME}/"
