@@ -1,6 +1,6 @@
 {
-    "files.autoSaveDelay": 10000,
-    "files.autoSave": "off",
+    "files.autoSaveDelay": 2000,
+    "files.autoSave": "onFocusChange",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 140
 }
