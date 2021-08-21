@@ -1,4 +1,7 @@
 name: Main branch build
+defaults:
+  run:
+    shell: bash
 on:
   push:
     branches:
