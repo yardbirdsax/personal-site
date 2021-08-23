@@ -19,20 +19,16 @@ From the first line of code I wrote (an ExtraBasic script to automate generation
 
 Experience
 ----------
-### 2019 - Present: Turnberry Solutions
 
-*March 2021 - Present: Principal DevOps Engineer*
+### 2021 - Present: HBO Max / WarnerMedia
 
--   Leading a team in an effort to migrate from an on-premise OpenStack based infrastructure to an AWS based one. This includes:
-    - Designing infrastructure layout and building sets of re-usable Terraform modules for repeatable deployments
-    - Creating a path to migrate from Hashicorp Nomad to Kubernetes for container orchestration, including the introduction of GitOps principles
-    - Constructing a strategy for incremental service migration using Hashicorp Consul Connect Service Mesh as a traffic mediator
-    - Implementing Hashicorp Vault as the exclusive secret store for all applications and infrastructure deployments
--   Breaking down multiple large Terraform repositories into smaller units for safer, faster, and more repeatable deployments.
--   Adding standardized AWS CloudWatch alarms to Terraform modules to ensure that monitoring and alerting is always included in deployments of related infrastructure.
--   Leading an effort to introduce centralized documentation of best practices around DevOps and Site Reliability Engineering within the organization.
+*June 2021 - Present: Staff Software Engineer*
 
-*2019 - March 2021: Senior DevOps Engineer*
+
+
+### 2019 - 2021: Turnberry Solutions
+
+*December 2019 - May 2021: Senior DevOps Engineer*
 
 -   Implemented numerous CI/CD pipelines for database changes, containerized APIs, and React web application deployments using Azure DevOps, AWS Codebuild, AWS CodeDeploy, and FlywayDB, which allowed us to:
     - Move from manual execution of database scripts to automated release of database changes
@@ -41,6 +37,10 @@ Experience
 -   Achieved multiple AWS Certifications in the first 30 days of employment, including the Solutions Architect Associate and DevOps Engineer Professional.
 -   Created a standardized ingestion pipeline for logs from Elastic Container Service and Lambda, using a combination of Kinesis Firehose streams, Python running in Lambda, and AWS Elasticsearch Service, allowing us to easily search log records, introduce proactive machine learning based alerting, and troubleshoot problems faster.
 -   Created numerous Terraform modules for deploying common sets of infrastructure in a repeatable and standardized way, including automated testing using Terratest within Azure DevOps.
+-   Breaking down multiple large Terraform repositories into smaller units for safer, faster, and more repeatable deployments.
+-   Adding standardized AWS CloudWatch alarms to Terraform modules to ensure that monitoring and alerting is always included in deployments of related infrastructure.
+-   Lead an effort to introduce centralized documentation of best practices around DevOps and Site Reliability Engineering within the organization.
+-   Implemented Hashicorp Vault as the exclusive secret store for all applications and infrastructure deployments
 
 
 ### 2014 - 2019: Gateway Ticketing Systems
