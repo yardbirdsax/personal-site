@@ -1,0 +1,20 @@
+---
+title: Cover Letter
+published: true
+tags: []
+---
+
+Dear Elastician,
+
+I can remember the first time I realized just how much the use of Elastic tools would be a game changer at my organization. I was exploring some web server log data that we had just gotten into the system, and I saw just how easy it made it to gain useful insights and easily locate useful information for troubleshooting an issue. And while that was a pretty cool experience, the real light-bulb moment was when I saw how powerful the Machine Learning features were, and how easy they were to get up and running. With some quick coding and a bit of tweaking, I was able to retroactively predict several outages that had gone completely undetected by our legacy monitoring system. Not only that, it actually found several problems that we never even knew we had! I was floored, and since then, I've been a huge fan of Elastic and the amazing work that you're doing around analyzing and visualizing the mountains of data organizations are producing.
+
+When I learned about the Elastic Cloud product, I was very excited about the prospect of getting all the benefits of the product without the complexities of managing the underlying system. Even though we've found that Elasticsearch is very stable and reliable, being able to focus on data ingestion and use of features (rather than managing cluster scaling, upgrading, or maintenance) has been a huge boon.
+
+As a proponent of cloud systems in general (and SaaS / managed platform offerings in particular), the idea of getting to contribute to the success of the Elastic Cloud product is, to say the least, exhilarating. Over the last several years, I've worked extensively with the Microsoft Azure platform, which I know was recently announced as part of the Elastic Cloud offering, and I believe strongly that my skills and knowledge in that area would be of value to your organization. As the leader of the team responsible for Gateway's cloud migration, I've proven my ability to drive cloud transformation efforts and to ensure that the products we support take full advantage of the latest features of the platforms hosting them.
+
+Honestly though, more than the technology, the thing that attracts me the most about Elastic is your relentless focus on treating people well. From your "source code", to the stories posted on the Culture section of your corporate blog, it's clear that while the product is important, you value people first and foremost. In today's fast paced world, that's a rare thing to see, especially for a tech company in an explosive growth phase.
+
+I would love the chance to discuss this position further, and how I feel I could contribute to the continued success of the Elastic Cloud product. I can be reached either via e-mail (josh@sqljosh.com) or via phone (484-938-8272). Thank you for your considering my application.
+
+Sincerely,<br/>
+Josh
