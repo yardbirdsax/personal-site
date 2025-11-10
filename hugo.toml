@@ -1,3 +1,46 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://josh.feiermanfamily.com"
+languageCode = "en-us"
+title = "Josh Feierman's Website"
+
+[params]
+  tagline = "Passionate tool maker and open source enthusiast"
+  description = "The website of Josh Feierman, experienced cloud and data professional, tech geek and lover of good beer and sci-fi."
+  copyright = "© 2019 Josh Feierman, All rights reserved"
+
+[params.author]
+  name = "JOSH FEIERMAN"
+  bio = "Self-taught cloud and data afficionado, lover of fine beer, bourbon, science fiction."
+
+[params.author.contacts]
+  linkedin = "https://www.linkedin.com/in/joshuafeierman/"
+  github = "https://github.com/yardbirdsax"
+  medium = "https://medium.com/@yardbirdsax"
+  twitter = "https://twitter.com/awanderingmind"
+
+[[params.labels]]
+  tag = "azure"
+  tech = "Azure"
+  name = "FaWindows"
+  size = 20
+  color = "deepskyblue"
+
+[[params.labels]]
+  tag = "git"
+  tech = "Git"
+  name = "DiGitMerge"
+  size = 20
+  color = "white"
+
+[[params.labels]]
+  tag = "python"
+  tech = "Python"
+  name = "DiPython"
+  size = 20
+  color = "deepskyblue"
+
+[[params.labels]]
+  tag = "aws"
+  tech = "AWS"
+  name = "FaAws"
+  size = 20
+  color = "yellow"
