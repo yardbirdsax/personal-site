@@ -1,7 +1,7 @@
 ---
 title: 'Welcome To My Developer Blog'
 tags: ["python", "azure", "aws" ]
-published: false
+draft: true
 date: '2018-08-20'
 ---
 

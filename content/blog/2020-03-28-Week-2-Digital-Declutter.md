@@ -1,7 +1,7 @@
 ---
 title: 'Digital Declutter 2020 - Week 2'
 tags: [ ]
-published: true
+draft: false
 date: '2020-03-28'
 ---
 

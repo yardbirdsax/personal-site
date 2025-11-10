@@ -1,7 +1,7 @@
 ---
 title: 'Confessions of a Digital Addict'
 tags: [ 'digital minimalism' ]
-published: true
+draft: false
 date: '2021-01-23'
 ---
 
