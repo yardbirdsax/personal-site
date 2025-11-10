@@ -2,6 +2,19 @@ baseURL = "https://josh.feiermanfamily.com"
 languageCode = "en-us"
 title = "Josh Feierman's Website"
 
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/:filename/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "rss"
+
 [params]
   tagline = "Passionate tool maker and open source enthusiast"
   description = "The website of Josh Feierman, experienced cloud and data professional, tech geek and lover of good beer and sci-fi."
