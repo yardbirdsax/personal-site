@@ -17,7 +17,7 @@
                     <small class="d-inline-block ml-3"> Read full post</small>
                 </a>
                 <div class="d-block">
-                    {{ partial "tech-tags-list.html" .Params.tags }}
+                    {{ partial "tech-tags-list.html" (dict "tags" .Params.tags "site" $.Site) }}
                 </div>
             </div>
         {{ end }}

@@ -1,5 +1,6 @@
-{{ $postTags := . }}
-{{ $labels := .Site.Params.labels }}
+{{ $postTags := .tags }}
+{{ $site := .site }}
+{{ $labels := $site.Params.labels }}
 
 {{ range $postTags }}
     {{ $currentTag := . }}

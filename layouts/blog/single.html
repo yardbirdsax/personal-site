@@ -8,7 +8,7 @@
         <div class="mt-3">
             <h2 class="heading">{{ .Title }}</h2>
             <div class="d-block">
-                {{ partial "tech-tags-list.html" .Params.tags }}
+                {{ partial "tech-tags-list.html" (dict "tags" .Params.tags "site" .Site) }}
             </div>
             <br>
             {{ if .Date }}
