@@ -57,3 +57,9 @@ title = "Josh Feierman's Website"
   name = "FaAws"
   size = 20
   color = "yellow"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

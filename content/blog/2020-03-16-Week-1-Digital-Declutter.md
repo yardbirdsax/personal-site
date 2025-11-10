@@ -7,8 +7,7 @@ date: '2020-03-16'
 
 This is my post detailing my notes and experience of week one of my digital declutter experiment. It will be updated daily-ish with a final summary on Sunday March 22nd, 2020.
 
-```toc
-```
+{{ .TableOfContents }}
 
 ## Day 1 - March 16th, 2020
 
