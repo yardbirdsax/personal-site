@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="index-main">
+    <div class="sidebar px-4 py-2">
+        {{ partial "sidebar.html" . }}
+    </div>
+
+    <div class="post-list-main">
+        <i><h2 class="heading">{{ len .Pages }} post{{ if ne (len .Pages) 1 }}s{{ end }} tagged with "{{ .Title }}"</h2></i>
+        {{ range .Pages }}
+            <div class="container mt-5">
+                <a href="{{ .Permalink }}" class="text-dark">
+                    <h2 class="heading">{{ .Title }}</h2>
+                </a>
+                <small class="d-block text-info">Posted on {{ .Date.Format "January, 2006" }}</small>
+                <p class="mt-3 d-inline">{{ .Summary }}</p>
+                <a href="{{ .Permalink }}" class="text-primary">
+                    <small class="d-inline-block ml-3"> Read full post</small>
+                </a>
+                <div class="d-block">
+                    {{ partial "tech-tags-list.html" .Params.tags }}
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

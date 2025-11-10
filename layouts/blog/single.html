@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="post-page-main">
+    <div class="sidebar px-4 py-2">
+        {{ partial "sidebar.html" . }}
+    </div>
+
+    <div class="post-main">
+        <div class="mt-3">
+            <h2 class="heading">{{ .Title }}</h2>
+            <div class="d-block">
+                {{ partial "tech-tags-list.html" .Params.tags }}
+            </div>
+            <br>
+            {{ if .Date }}
+                <small><i>Published on </i> {{ .Date.Format "January 02, 2006" }}</small>
+            {{ end }}
+            <div>
+                {{ .Content }}
+            </div>
+            {{ partial "share-block.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

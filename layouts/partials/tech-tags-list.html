@@ -1,0 +1,11 @@
+{{ $postTags := . }}
+{{ $labels := .Site.Params.labels }}
+
+{{ range $postTags }}
+    {{ $currentTag := . }}
+    {{ range $labels }}
+        {{ if eq $currentTag .tag }}
+            {{ partial "tech-tag.html" (dict "tag" .tag "tech" .tech "name" .name "size" .size "color" .color) }}
+        {{ end }}
+    {{ end }}
+{{ end }}
