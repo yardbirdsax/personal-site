@@ -77,3 +77,21 @@ title = "Josh Feierman's Website"
     noHl = false
     style = 'monokai'
     tabWidth = 4
+
+# Deployment configuration for AWS S3
+[deployment]
+  [[deployment.targets]]
+    name = "production"
+    URL = "s3://josh.feiermanfamily.com?region=us-east-1"
+
+  [[deployment.matchers]]
+    # Cache static assets for 1 year
+    pattern = "^.+\\.(js|css|svg|ttf|woff|woff2|eot|png|jpg|jpeg|gif|ico)$"
+    cacheControl = "max-age=31536000, no-transform, public"
+    gzip = true
+
+  [[deployment.matchers]]
+    # Set default cache control for HTML files
+    pattern = "^.+\\.(html|xml|json)$"
+    cacheControl = "max-age=0, no-cache, no-store, must-revalidate"
+    gzip = true
