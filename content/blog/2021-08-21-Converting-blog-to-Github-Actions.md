@@ -1,7 +1,6 @@
 ---
 title: 'Converting my blog to use GitHub Actions'
 tags: [ 'GitHub Actions', 'DevOps' ]
-published: true
 date: '2021-08-21'
 ---
 
