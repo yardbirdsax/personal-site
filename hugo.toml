@@ -6,7 +6,7 @@ title = "Josh Feierman's Website"
   tag = "tags"
 
 [permalinks]
-  blog = "/:filename/"
+  blog = "/:contentbasename/"
 
 [outputs]
   home = ["HTML", "RSS"]
